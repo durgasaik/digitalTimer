@@ -1,0 +1,118 @@
+/* Write your CSS here */
+.app-container {
+  background-image: linear-gradient(to right, #defafe, #cffcf1);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.digital-timer-heading {
+  font-weight: 600;
+  font-family: 'Roboto';
+  font-size: 30px;
+  color: #0f172a;
+}
+
+.timer-running-container {
+  display: flex;
+
+  justify-content: space-between;
+}
+
+.timer-start-stop-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/digital-timer-elapsed-bg.png');
+  background-size: cover;
+  height: 70vh;
+  width: 40vw;
+}
+
+.timer-text {
+  color: #0f172a;
+  font-weight: 500;
+  font-family: 'Roboto';
+}
+
+.set-timer-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.start-reset-container {
+  display: flex;
+}
+
+.play-button-container {
+  display: flex;
+}
+
+.play-icon-button {
+  border-width: 0px;
+  background-color: transparent;
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.play-icon-image {
+  height: 30px;
+  width: 30px;
+}
+
+.reset-button-container {
+  display: flex;
+}
+
+.reset-icon-button {
+  border-width: 0px;
+  background-color: transparent;
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.reset-icon-image {
+  height: 30px;
+  width: 30px;
+}
+
+.set-time-limit {
+  display: flex;
+  flex-direction: column;
+}
+
+.change-timer-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.timer-limit {
+  font-family: 'Roboto';
+  font-size: 10px;
+  text-align: center;
+}
+
+.increase-or-decrease {
+  font-size: 20px;
+  background-color: transparent;
+  border-width: 0px;
+}
+
+.change-time {
+  background-color: #00d9f5;
+  height: 28px;
+  width: 50px;
+  text-align: center;
+  border-radius: 5px;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.timer-display {
+  background-color: #ffffff;
+  border-radius: 80px;
+  width: 12vw;
+  height: 24vh;
+  text-align: center;
+}
